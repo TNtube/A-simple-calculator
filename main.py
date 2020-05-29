@@ -7,7 +7,7 @@ calc.set("")
 
 show = Frame(screen)
 
-entry = Entry(show, textvariable=calc, width="19")
+entry = Entry(show, textvariable=calc, width="19", state="disable")
 entry.grid(column=0, row=0)
 
 ac = Button(show, text='AC', width=4, height=2, command=lambda: calc.set(""))
